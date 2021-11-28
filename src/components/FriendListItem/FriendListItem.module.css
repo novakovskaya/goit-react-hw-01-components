@@ -1,0 +1,15 @@
+.status {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 18px;
+}

@@ -1,0 +1,31 @@
+.transactionHistory {
+  width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  height: 40px;
+  background-color: #4ebcd5;
+  color: #eafefe;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+td,
+th {
+  border: 1px solid #dcdcdc;
+}
+
+.tableItem {
+  height: 40px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #a2a4a8;
+  text-transform: capitalize;
+}
+
+.tableItem:nth-child(even) {
+  background-color: #ecf1f4;
+}

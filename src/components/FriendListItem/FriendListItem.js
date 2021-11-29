@@ -3,7 +3,7 @@ import styles from "./FriendListItem.module.css";
 
 export function FriendListItem({ avatar, name, isOnline }) {
   return (
-    <>
+    <li className={styles.item}>
       {isOnline ? (
         <span className={styles.status} style={{ backgroundColor: "#55AC57" }}>
           {isOnline}
@@ -20,7 +20,7 @@ export function FriendListItem({ avatar, name, isOnline }) {
         width="48"
       />
       <p className={styles.name}>{name}</p>
-    </>
+    </li>
   );
 }
 
